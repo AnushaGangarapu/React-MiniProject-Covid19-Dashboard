@@ -1,0 +1,29 @@
+.state-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 25%;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.detail-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.state-count {
+  width: 15%;
+}
+.state-details-count {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}

@@ -1,0 +1,103 @@
+.state-specific {
+  background-color: #161625;
+}
+
+.specific-route-container {
+  padding: 16px 24px;
+}
+@media screen and (min-width: 768px) {
+  .specific-route-container {
+    padding: 28px 150px;
+  }
+}
+
+.state-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.states-heading {
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #0ea5e9;
+  background-color: rgba(2, 132, 199, 0.16);
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+@media screen and (min-width: 768px) {
+  .states-heading {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+  }
+}
+.tested {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #94a3b8;
+}
+@media screen and (min-width: 768px) {
+  .tested {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+}
+.tested-count {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #94a3b8;
+}
+.update {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #cbd5e1;
+}
+@media screen and (min-width: 768px) {
+  .update {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+
+.Confirmed-select {
+  color: #ff073a;
+}
+.Active-select {
+  color: #007bff;
+}
+.Recovered-select {
+  color: #28a745;
+}
+.Deceased-select {
+  color: #6c757d;
+}
+.top-district {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+@media screen and (min-width: 768px) {
+  .top-district {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+.districts-list {
+  list-style-type: none;
+  padding-left: 0px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}

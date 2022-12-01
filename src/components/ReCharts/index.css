@@ -1,0 +1,43 @@
+.barChart {
+  overflow-x: auto;
+}
+
+.daily-trends {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #cbd5e1;
+}
+@media screen and (min-width: 768px) {
+  .daily-trends {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+.loader {
+  display: flex;
+  justify-content: center;
+}
+.lineChart {
+  border-radius: 12px;
+  margin-bottom: 32px;
+  padding: 40px;
+  overflow-x: auto;
+}
+
+.confirmed-bg {
+  background-color: #331427;
+}
+.active-bg {
+  background-color: #132240;
+}
+.recovered-bg {
+  background-color: #182829;
+}
+.deceased-bg {
+  background-color: #1c1c2b;
+}
+.tested-bg {
+  background-color: #230f41;
+}
